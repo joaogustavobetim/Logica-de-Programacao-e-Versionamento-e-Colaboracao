@@ -1,0 +1,19 @@
+Exercício 02 Portfólio 02
+
+var
+   numero, contador, resultado: inteiro
+
+inicio
+
+   escreva("Digite um numero inteiro positivo: ")
+   leia(numero)
+
+   para contador de 1 ate 10 faca
+
+      resultado <- numero * contador
+
+      escreval(numero, " x ", contador, " = ", resultado)
+
+   fimpara
+
+fimalgoritmo
