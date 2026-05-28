@@ -1,0 +1,23 @@
+Exercício 03 Portfólio 02
+
+var
+   senha: caractere
+
+inicio
+
+   senha <- ""
+
+   enquanto senha <> "senha123" faca
+
+      escreva("Digite a senha: ")
+      leia(senha)
+
+      se senha <> "senha123" entao
+         escreval("Senha incorreta! Tente novamente.")
+      fimse
+
+   fimenquanto
+
+   escreval("Bem-vindo ao sistema!")
+
+fimalgoritmo
