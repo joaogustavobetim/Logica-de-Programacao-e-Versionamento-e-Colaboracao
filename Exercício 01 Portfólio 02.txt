@@ -1,0 +1,50 @@
+Exercício 01 Portfólio 02
+
+var
+   num1, num2, resultado: real
+   opcao: inteiro
+
+inicio
+
+   escreva("Digite o primeiro numero: ")
+   leia(num1)
+
+   escreva("Digite o segundo numero: ")
+   leia(num2)
+
+   escreval("===== MENU =====")
+   escreval("1 - Soma")
+   escreval("2 - Subtracao")
+   escreval("3 - Multiplicacao")
+   escreval("4 - Divisao")
+   escreva("Escolha uma opcao: ")
+   leia(opcao)
+
+   escolha opcao
+
+      caso 1
+         resultado <- num1 + num2
+         escreval("Resultado: ", resultado)
+
+      caso 2
+         resultado <- num1 - num2
+         escreval("Resultado: ", resultado)
+
+      caso 3
+         resultado <- num1 * num2
+         escreval("Resultado: ", resultado)
+
+      caso 4
+         se num2 <> 0 entao
+            resultado <- num1 / num2
+            escreval("Resultado: ", resultado)
+         senao
+            escreval("Erro: divisao por zero!")
+         fimse
+
+      outrocaso
+         escreval("Opcao invalida!")
+
+   fimescolha
+
+fimalgoritmo
