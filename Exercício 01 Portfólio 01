@@ -1,0 +1,60 @@
+Exercício 01 Portifólio 01:algoritmo "Autoatendimento Lanchonete"
+
+
+
+var
+
+   codigo: inteiro
+
+inicio
+
+   // Exibição do Menu
+
+   escreval("--- MENU DA LANCHONETE ---")
+
+   escreval("1 - Cachorro Quente (R$ 8,00)")
+
+   escreval("2 - Hambúrguer (R$ 15,00)")
+
+   escreval("3 - Misto Quente (R$ 10,00)")
+
+   escreval("4 - Refrigerante (R$ 5,00)")
+
+   escreval("--------------------------")
+
+   
+
+   escreva("Digite o código do item desejado: ")
+
+   leia(codigo)
+
+
+
+   // Processamento da escolha
+
+   escolha codigo
+
+      caso 1
+
+         escreval("Você escolheu: Cachorro Quente - R$ 8,00")
+
+      caso 2
+
+         escreval("Você escolheu: Hambúrguer - R$ 15,00")
+
+      caso 3
+
+         escreval("Você escolheu: Misto Quente - R$ 10,00")
+
+      caso 4
+
+         escreval("Você escolheu: Refrigerante - R$ 5,00")
+
+      outrocaso
+
+         escreval("Código inválido!")
+
+   fimescolha
+
+fimalgoritmo
+
