@@ -1,0 +1,45 @@
+Exercício 02 Portfólio 01:-algoritmo "TelaDeBloqueio"
+
+
+
+var
+
+   senhaCorreta, senhaDigitada: caractere
+
+inicio
+
+   // Definindo a senha padrão do sistema
+
+   senhaCorreta <- "123456"
+
+   
+
+   escreva("Digite a senha: ")
+
+   leia(senhaDigitada)
+
+   
+
+   // O laço continua enquanto a senha for diferente da correta
+
+   enquanto (senhaDigitada <> senhaCorreta) faca
+
+      limpatela // Opcional, conforme o enunciado
+
+      escreval("Senha incorreta, acesso negado. Tente novamente.")
+
+      escreva("Digite a senha: ")
+
+      leia(senhaDigitada)
+
+   fimenquanto
+
+   
+
+   // Mensagem exibida apenas quando o laço é quebrado (senha correta)
+
+   limpatela
+
+   escreval("Acesso liberado!")
+
+fimalgoritmo
