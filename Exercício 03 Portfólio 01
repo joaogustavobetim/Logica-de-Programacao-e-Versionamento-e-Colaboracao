@@ -1,0 +1,76 @@
+Exercício 03 Portfólio 01:algoritmo "Caixa Eletronico"
+
+
+
+var
+
+   opcao: inteiro
+
+   saldo, valor: real
+
+inicio
+
+   saldo <- 1000.00
+
+   opcao <- -1 // Inicializa para entrar no loop
+
+
+
+   enquanto opcao <> 0 faca
+
+      escreval("--- MENU ---")
+
+      escreval("1 - Consultar Saldo")
+
+      escreval("2 - Fazer Saque")
+
+      escreval("3 - Fazer Depósito")
+
+      escreval("0 - Sair")
+
+      escreva("Escolha uma opção: ")
+
+      leia(opcao)
+
+
+
+      escolha opcao
+
+      caso 1
+
+         escreval("Saldo atual: R$", saldo:2:2)
+
+      caso 2
+
+         escreva("Valor do saque: ")
+
+         leia(valor)
+
+         saldo <- saldo - valor
+
+         escreval("Novo saldo: R$", saldo:2:2)
+
+      caso 3
+
+         escreva("Valor do depósito: ")
+
+         leia(valor)
+
+         saldo <- saldo + valor
+
+         escreval("Novo saldo: R$", saldo:2:2)
+
+      caso 0
+
+         escreval("Sistema encerrado")
+
+      outrocaso
+
+         escreval("Opção inválida!")
+
+      fimescolha
+
+      escreval("") // Linha em branco para organizar
+
+   fimenquanto
+
