@@ -1,4 +1,4 @@
-Exercício 02 Portfólio 02
+Exercício 02 Portfólio 02 Lógica de Programação:algoritmo - "A tabuada"
 
 var
    numero, contador, resultado: inteiro
