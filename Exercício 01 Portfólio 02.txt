@@ -1,4 +1,4 @@
-Exercício 01 Portfólio 02
+Exercício 01 Portfólio 02 Lógica Programação - A calculadora
 
 var
    num1, num2, resultado: real
