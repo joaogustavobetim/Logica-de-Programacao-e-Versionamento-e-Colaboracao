@@ -1,3 +1,3 @@
-# Lógica de Programaçãoo e Versionamento e Colaboração
+# Lógica de Programação
 
 Aqui serão adicionados exercícios de programação
